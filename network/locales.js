@@ -1,3 +1,19 @@
+exports['cn'] = {
+  edit: '编辑',
+  del: '删除选中节点',
+  back: '返回',
+  addNode: '增加节点',
+  addEdge: '连线',
+  editNode: '编辑节点',
+  editEdge: '编辑线',
+  addDescription: '在空白处点击即可新增节点.',
+  edgeDescription: '选中节点进行拖拽即可连线.',
+  editEdgeDescription: 'Click on the control points and drag them to a node to connect to it.',
+  createEdgeError: 'Cannot link edges to a cluster.',
+  deleteClusterError: 'Clusters cannot be deleted.',
+  editClusterError: 'Clusters cannot be edited.'
+};
+
 // English
 exports['en'] = {
   edit: 'Edit',
@@ -127,3 +143,5 @@ exports['ru'] = {
   editClusterError: 'Кластеры недоступны для редактирования.'
 };
 exports['ru_RU'] = exports['ru'];
+
+
