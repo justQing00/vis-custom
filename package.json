@@ -1,0 +1,24 @@
+{
+  "name": "vis-network-custom",
+  "version": "0.0.1",
+  "description": "for vis network custom style and control",
+  "main": "network/Network.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justQing00/vis-network-custom.git"
+  },
+  "keywords": [
+    "vis",
+    "network",
+    "custom"
+  ],
+  "author": "just",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justQing00/vis-network-custom/issues"
+  },
+  "homepage": "https://github.com/justQing00/vis-network-custom#readme"
+}
