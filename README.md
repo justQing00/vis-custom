@@ -1,16 +1,12 @@
 # vis-network-custom
 vis network custom style 
 
-### 0.0.1
-    import vis network
-[demo for visjs](http://visjs.org/examples/network/other/manipulation.html)
+How to Use: 
 
-### 0.0.2
-    add click event for addNode、addEdge、deleteNode...
-    still keep Hammer events.
-
-How to Use:
-
+    1) npm install vis-network-custom
+    2) import Network from 'vis-network-custom';
+    3) import 'vis-network-custom/app/styles/vis-network.css';
+    4) example:
 ```
     clickable(document.querySelector('.vis-add'));
 
@@ -32,3 +28,12 @@ How to Use:
     };  
 ```
 ![vis-network](./capture.png)
+
+
+### 0.0.2
+    add click event for addNode、addEdge、deleteNode...
+    still keep Hammer events.
+
+### 0.0.1
+    use vis network, delete some useless files
+[demo from visjs](http://visjs.org/examples/network/other/manipulation.html)
