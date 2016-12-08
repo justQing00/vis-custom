@@ -1,6 +1,6 @@
 {
   "name": "vis-network-custom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "for vis network custom style and control",
   "main": "network/Network.js",
   "scripts": {
