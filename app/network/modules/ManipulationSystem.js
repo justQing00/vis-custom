@@ -663,6 +663,9 @@ class ManipulationSystem {
   _createEditNodeButton(locale) {
     let button = this._createButton('editNode', 'vis-button vis-edit', locale['editNode'] || this.options.locales['en']['editNode']);
     this.manipulationDiv.appendChild(button);
+    //挂载click
+    button.addEventListener('click', this.editNode.bind(this));
+    //挂载hammer
     this._bindHammerToDiv(button, this.editNode.bind(this));
   }
 
