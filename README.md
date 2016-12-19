@@ -29,6 +29,8 @@ How to Use:
 ```
 ![vis-network](./capture.png)
 
+### 0.0.5
+    To narrow down, enlarge and Restore the figure.
 
 ### 0.0.2
     add click event for addNode、addEdge、deleteNode...
