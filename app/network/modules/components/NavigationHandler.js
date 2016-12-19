@@ -85,9 +85,15 @@ class NavigationHandler {
 
       var hammer = new Hammer(this.navigationDOM[navigationDivs[i]]);
       if (navigationDivActions[i] === "_fit") {
+        //挂载click
+        this.navigationDOM[navigationDivs[i]].addEventListener('click', this._fit.bind(this));
+        //挂载hammer
         hammerUtil.onTouch(hammer, this._fit.bind(this));
       }
       else {
+        //挂载click
+        this.navigationDOM[navigationDivs[i]].addEventListener('click', this.bindToRedrawLimit.bind(this,navigationDivActions[i]));
+        //挂载hammer
         hammerUtil.onTouch(hammer, this.bindToRedraw.bind(this,navigationDivActions[i]));
       }
 
@@ -101,6 +107,13 @@ class NavigationHandler {
     this.navigationHammers.push(hammerFrame);
 
     this.iconsCreated = true;
+  }
+
+  bindToRedrawLimit(action) {
+    this.bindToRedraw(action);
+    setTimeout(()=>{
+      this.unbindFromRedraw(action);
+    }, 100);
   }
 
   bindToRedraw(action) {
