@@ -9,7 +9,7 @@ class Box extends NodeBase {
 
   resize(ctx, selected) {
     if (this.width === undefined) {
-      let margin = 5;
+      let margin = 10;
       let textSize = this.labelModule.getTextSize(ctx,selected);
       this.width = textSize.width + 2 * margin;
       this.height = textSize.height + 2 * margin;
