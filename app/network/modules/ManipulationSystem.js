@@ -692,6 +692,9 @@ class ManipulationSystem {
   _createBackButton(locale) {
     let button = this._createButton('back', 'vis-button vis-back', locale['back'] || this.options.locales['en']['back']);
     this.manipulationDiv.appendChild(button);
+    //挂载click
+    button.addEventListener('click', this.showManipulatorToolbar.bind(this));
+    //挂载hammer
     this._bindHammerToDiv(button, this.showManipulatorToolbar.bind(this));
   }
 
