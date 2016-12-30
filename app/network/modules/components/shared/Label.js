@@ -152,6 +152,11 @@ class Label {
       if (this.fontOptions.strokeWidth > 0) {
         ctx.strokeText(this.lines[i], x, yLine);
       }
+      
+      if(i===1){
+        ctx.fillStyle = '#999';
+        ctx.font = '12px MicrosoftYaHei';
+      }
       ctx.fillText(this.lines[i], x, yLine);
       yLine += fontSize;
     }
