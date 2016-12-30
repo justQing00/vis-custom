@@ -11,8 +11,8 @@ class Box extends NodeBase {
     if (this.width === undefined) {
       let margin = 10;
       let textSize = this.labelModule.getTextSize(ctx,selected);
-      this.width = textSize.width + 2 * margin;
-      this.height = textSize.height + 2 * margin;
+      this.width = textSize.width + 2 * margin + 60;
+      this.height = textSize.height + 1 * margin;
       this.radius = 0.5*this.width;
     }
   }
