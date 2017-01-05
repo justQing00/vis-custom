@@ -1,7 +1,7 @@
 # vis-network-custom
-vis network custom style 
+vis network custom style
 
-How to Use: 
+How to Use:
 
     1) npm install vis-network-custom
     2) import Network from 'vis-network-custom';
@@ -25,9 +25,12 @@ How to Use:
         });
         element.dispatchEvent(evt);
       }
-    };  
+    };
 ```
 ![vis-network](./capture.png)
+
+### 0.0.6
+    Delete some useless.
 
 ### 0.0.5
     To narrow down, enlarge and Restore the figure.
