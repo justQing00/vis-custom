@@ -3,10 +3,10 @@ vis network custom style
 
 How to Use:
 
-    1) npm install vis-network-custom
+    1) npm install vis-network-custom;
     2) import Network from 'vis-network-custom';
     3) import 'vis-network-custom/app/styles/vis-network.css';
-    4) example:
+    4) use click event to replace. example for add node:
 ```
     clickable(document.querySelector('.vis-add'));
 
