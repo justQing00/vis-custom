@@ -1,3 +1,3 @@
 import Network from './app/network/Network.js';
 
-module.exports = Network;
+export default Network;
