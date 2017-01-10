@@ -1,6 +1,6 @@
 {
   "name": "vis-network-custom",
-  "version": "0.0.7-bata4",
+  "version": "0.0.7",
   "description": "for vis network custom style and control",
   "main": "index.js",
   "scripts": {

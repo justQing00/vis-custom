@@ -1,5 +1,7 @@
 import Network from './app/network/Network.js';
 
-window.Network = Network;
+if(window){
+  window.Network = Network;
+}
 
 export default Network;
