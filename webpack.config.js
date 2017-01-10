@@ -8,7 +8,7 @@ module.exports= {
   output:{
     path: path.join(__dirname,'public'),
     publicPath: "/public/",
-    filename: "[name].js",
+    filename: "vis-network.min.js",
     chunkFilename: "[id].chunk.js"
   },
   module: {
