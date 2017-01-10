@@ -29,6 +29,12 @@ How to Use:
 ```
 ![vis-network](./capture.png)
 
+### 0.0.8
+    Change output file name.
+
+### 0.0.7
+    Use global variable.
+
 ### 0.0.6
     Delete some useless.
 
